@@ -8,4 +8,7 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    return (a+c)/2==b
+print(main(3,4,5))
+print(main(6,4,5))
+print(main(6,4,1))
