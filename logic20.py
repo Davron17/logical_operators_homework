@@ -9,4 +9,6 @@ def main(n):
         bool: answer
     """
 
-    return
+    return n%10==1 and n//10000<=1 and (n-n//10000*10000)//1000<=1 and (n-n//1000*1000)//100<=1 and (n-n//100*100)//10<=1
+print(main(11000))
+print(main(1101))
