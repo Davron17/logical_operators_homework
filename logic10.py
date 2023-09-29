@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//10>=1
+print(main(3))
+print(main(12))
