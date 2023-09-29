@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//100>=1
+print(main(3))
+print(main(12))
+print(main(123))
